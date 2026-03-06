@@ -20,7 +20,7 @@ $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
 if (!$usuario) {
     die("Usuário não encontrado.");
-}
+} 
  
 // Inicializar variáveis com dados do usuário para exibição no formulário
 $nome = $usuario['nome'] ?? '';
